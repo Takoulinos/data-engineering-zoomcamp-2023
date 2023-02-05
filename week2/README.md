@@ -22,3 +22,18 @@ Prosessed 7832545 rows.
 
 Answer: 88605 rows
 
+# Question 5. Email or slack notifications
+
+Answer: 514392 rows
+
+Prefect flow run notification
+Flow run etl-web-to-gcs/carrot-markhor entered state Completed at 2023-02-05T13:46:12.263704+00:00.
+Flow ID: 452b2fd0-b9f3-460e-93b0-719322f046d7
+Flow run ID: 7f495ddc-f723-4679-95b3-98014f15ffe7
+Flow run URL: http://127.0.0.1:4200/flow-runs/flow-run/7f495ddc-f723-4679-95b3-98014f15ffe7
+State message: All states completed.
+
+# Question 6. 
+
+Answer: 8 asterisks
+
