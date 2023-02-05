@@ -20,3 +20,5 @@ Prosessed 7832545 rows.
 
 # Question 4. Github Storage Block
 
+Answer: 88605 rows
+
