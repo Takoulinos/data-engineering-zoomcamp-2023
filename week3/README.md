@@ -14,16 +14,16 @@ SELECT * FROM de_zoomcamp_2023.external_fhv_tripdata;
 SELECT COUNT(1) FROM `dtc-de-375704.de_zoomcamp_2023.external_fhv_tripdata`;
 Answer: 43,244,696
 
-#Question 2:
+# Question 2:
 SELECT COUNT(DISTINCT Affiliated_base_number) FROM `dtc-de-375704.de_zoomcamp_2023.external_fhv_tripdata`;
 SELECT COUNT(DISTINCT Affiliated_base_number) FROM `dtc-de-375704.de_zoomcamp_2023.fhv_tripdata`;
 Answer: 0 MB for the External Table and 317.94MB for the BQ Table
 
-#Question 3:
+# Question 3:
 SELECT COUNT (1) FROM `dtc-de-375704.de_zoomcamp_2023.external_fhv_tripdata` WHERE PUlocationID IS NULL AND DOlocationID IS NULL;
 Answer: 717,748
 
-#Question 4:
+# Question 4:
 Answer: Partition by pickup_datetime Cluster on affiliated_base_number
 
 # Question 5:
